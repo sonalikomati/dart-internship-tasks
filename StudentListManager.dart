@@ -1,7 +1,7 @@
 import 'dart:io';
 
 class StudentManager {
-  List<String> students = ["Rahul", "Aman", "Priya", "Sneha"];
+  List<String> students = ["Abhi", "Sakshi", "Saanvi", "Teju"];
 
   void addStudent(String name) {
     students.add(name);
