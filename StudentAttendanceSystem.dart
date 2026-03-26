@@ -37,7 +37,9 @@ void main() {
           print("${i + 1}. ${students[i].name}");
         }
 
-        stdout.write("Enter student numbers to mark present: ");
+        stdout.write(
+          "Enter student numbers to mark present(use comman for multiple value): ",
+        );
         String input = stdin.readLineSync()!;
 
         List<String> numbers = input.split(',');
