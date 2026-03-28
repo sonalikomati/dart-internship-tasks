@@ -2,8 +2,18 @@
 void main() {
   List<int> num = [1, 2, 3, 4, 5];
   int sum = 0;
+  int esum = 0;
+  int osum = 0;
+
   for (int i = 0; i < num.length; i++) {
     sum += num[i];
+    if (num[i] % 2 == 0) {
+      esum += num[i];
+    } else {
+      osum += num[i];
+    }
   }
   print("Sum of numbers: $sum");
+  print("Sum of even numbers: $esum");
+  print("Sum of odd numbers: $osum");
 }
